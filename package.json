@@ -1,0 +1,26 @@
+{
+  "name": "spreadsheet-api-server",
+  "version": "0.0.1",
+  "description": "HTTP API server wrapping spreadsheet files",
+  "main": "spreadsheet-api-server.js",
+  "dependencies": {
+    "commander": "^2.18.0",
+    "dbffile": "^0.7.5",
+    "express": "^4.16.3",
+    "express-bearer-token": "^2.2.0",
+    "iconv-lite": "^0.4.24",
+    "lodash": "^4.17.11",
+    "morgan": "^1.9.1",
+    "sanitize-filename": "^1.6.1",
+    "xlsx": "^0.14.0"
+  },
+  "devDependencies": {
+    "pkg": "^4.3.4"
+  },
+  "scripts": {
+    "build": "npx pkg spreadsheet-api-server.js --output spreadsheet-api-server.exe",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaroslav Kostal",
+  "license": "MIT"
+}
